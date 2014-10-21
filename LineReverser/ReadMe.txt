@@ -2,34 +2,14 @@
     APPLICATION : LineReverser Project Overview
 ========================================================================
 
-AppWizard has created this LineReverser Application for you.  
+A little thing thrown together as practice for onea them "programming test" job interviewy bits, because I haven't touched C++ in a while. Actual problem:
+(10:19:51 PM) seebs: Well, if you want a nice starter one: C++ program to reverse the order of lines in its input.
+(10:20:16 PM) seebs: I am not at all sure what the right solution is, but my first guess would be to try doing it using Vector<string> and hope for the best.
 
-This file contains a summary of what you will find in each of the files that
-make up your LineReverser application.
-
-LineReverser.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard. 
-    It contains information about the version of Visual C++ that generated the file, and 
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-LineReverser.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
+Main.cpp
+	Main application source file
 
 LineReverser.cpp
-    This is the main application source file.
+    LineReverser class, which carries out the meat of the operation
 
-AssemblyInfo.cpp
-	Contains custom attributes for modifying assembly metadata.
-
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
-
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
-
-/////////////////////////////////////////////////////////////////////////////
+Also: A bunch of Visual Studio crap which doesn't appear to be terribly relevent.
